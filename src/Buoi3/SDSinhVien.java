@@ -46,10 +46,10 @@ public class SDSinhVien {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		SinhVien a = new SinhVien();
-//		a.nhapThongTin();
+		a.nhapThongTin();
 
-//		a.dangKyHP("LTHDT");
-//		System.out.println(a.toString());
+		a.dangKyHP("LTHDT");
+		System.out.println(a.toString());
 
 		System.out.printf("Nhap so luong sinh vien: ");
 		int n = sc.nextInt();
